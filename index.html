@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #535353; 
+        }
+
+        header {
+            text-align: center;
+            padding: 15px;
+            background-color: #313131; 
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+    <title>Centered Header</title>
+</head>
+<body>
+    <header onclick="changeFile()">
+        <h1>Matthew Stapley</h1>
+        <h2>Portfolio</h2>
+    </header>
+
+    <script>
+        function changeFile() {
+            window.location.href = 'project.html';
+        }
+    </script>
+</body>
+</html>
